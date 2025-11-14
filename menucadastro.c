@@ -108,12 +108,10 @@ int main() {
             }
 
             printf("\n--- RELATORIO FINAL ---\n");
-            printf("Jogador com maior pontuacao: %d (%.2f pontos)\n",
-                    nj[maior_pontuacao], pontuacao[maior_pontuacao]);
+            printf("Jogador com maior pontuacao: %d (%.2f pontos)\n", nj[maior_pontuacao], pontuacao[maior_pontuacao]);
             printf("Pontuacao media: %.2f\n", media_geral);
             printf("Jogadores acima da media: %d\n", nvetor);
-            printf("Jogador mais jovem: %d (idade %d)\n",
-                    nj[varredura], idade[varredura]);
+            printf("Jogador mais jovem: %d (idade %d)\n", nj[varredura], idade[varredura]);
 
             return 0;
 
